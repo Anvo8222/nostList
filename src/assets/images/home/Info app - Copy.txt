@@ -1,0 +1,11 @@
+Name app: Best Butler EverHome		
+Apkname: com.bestbutlereverhomedayapp
+
+cho mở 1 note free, trong note gồm tiêu đề và number nằm dưới. tich xanh để nhận tính 
+và nhấn button showall để trả về kết quả nằm trong tick vàng.
+
+View : 100,200,300,400
+Price: 0.99,1.99,4.99,9.99
+
+Sub:1000,3000
+Price: 10$/week, 20$/tháng

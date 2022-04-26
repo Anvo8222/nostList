@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VApp1.iml" filepath="$PROJECT_DIR$/.idea/modules/VApp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VApp1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VApp1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2048273654/VApp1.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2048273654/VApp1.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-843857453/VApp1.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-843857453/VApp1.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1614679471/VApp1.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1614679471/VApp1.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/585515107/VApp1.react-native-iap.iml" filepath="$PROJECT_DIR$/.idea/modules/585515107/VApp1.react-native-iap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/865506616/VApp1.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/865506616/VApp1.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-572409222/VApp1.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-572409222/VApp1.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1819276837/VApp1.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1819276837/VApp1.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

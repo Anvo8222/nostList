@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dtapappdragoneggs"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\android\tinhToan\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\android\tinhToan\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\TechCare\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\TechCare\.gradle\caches\transforms-3\085f8b4a0f41cc85a44e54de4c1c514d\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:10:5-67
+14-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:10:22-64
+15
+16    <application
+16-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:6:5-23:19
+17        android:name="com.dtapappdragoneggs.MainApplication"
+17-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:10:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\88262e2acf03b53dbbc7f81bfce1731f\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:8:7-39
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:11:7-38
+25        android:usesCleartextTraffic="true" >
+25-->D:\android\tinhToan\android\app\src\debug\AndroidManifest.xml:8:9-44
+26        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+26-->D:\android\tinhToan\android\app\src\debug\AndroidManifest.xml:11:9-86
+26-->D:\android\tinhToan\android\app\src\debug\AndroidManifest.xml:11:19-83
+27        <activity
+27-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:12:7-22:18
+28            android:name="com.dtapappdragoneggs.MainActivity"
+28-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:13:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:15:9-86
+30            android:label="@string/app_name"
+30-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:14:9-41
+31            android:launchMode="singleTask"
+31-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:16:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:17:9-51
+33            <intent-filter>
+33-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:18:9-21:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:19:13-65
+34-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:19:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:20:13-73
+36-->D:\android\tinhToan\android\app\src\main\AndroidManifest.xml:20:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\8c4315551d06aad1a677790cf2b362a8\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+40-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\8c4315551d06aad1a677790cf2b362a8\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\8c4315551d06aad1a677790cf2b362a8\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\8c4315551d06aad1a677790cf2b362a8\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+43
+44        <meta-data
+44-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\e04bcc751834adb9ce9eb8a666e1bc8c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+45            android:name="com.google.android.gms.version"
+45-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\e04bcc751834adb9ce9eb8a666e1bc8c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+46            android:value="@integer/google_play_services_version" />
+46-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\TechCare\.gradle\caches\transforms-3\e04bcc751834adb9ce9eb8a666e1bc8c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+47        <meta-data
+47-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
+48            android:name="com.google.android.play.billingclient.version"
+48-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
+49            android:value="4.0.0" />
+49-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
+50
+51        <activity
+51-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
+52            android:name="com.android.billingclient.api.ProxyBillingActivity"
+52-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
+53            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+53-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
+54            android:exported="false"
+54-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.android.billingclient:billing:4.0.0] C:\Users\TechCare\.gradle\caches\transforms-3\eea4453399b3808bcb8a433c23a5f809\transformed\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
+56    </application>
+57
+58</manifest>
